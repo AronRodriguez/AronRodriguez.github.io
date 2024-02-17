@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<head>
+    <title>A.Rodriguez Resume</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, sans-serif;
+            background-color: rgb(213, 215, 217);
+            background-image: url("bg3.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        header {
+            text-align: center;
+            background-color: rgba(0, 58, 108,0.9);
+            color: rgb(255,255,255);
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        header img{
+            padding: 10px;
+            margin: 0 auto;
+        }
+
+        header p{
+            margin: 20 auto;
+        }
+
+        h3{
+            color: rgb(48, 142, 231);
+        }
+
+        b{
+            color: rgb(48, 142, 231);
+        }
+
+        i{
+            color: rgb(55,55,55);
+        }
+
+        div img{
+            padding: 10px;
+            width: 300px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        li{
+            padding: 5px;
+        }
+
+        table{
+            width: 800px;
+            margin-top: 20px;
+            text-align: left;
+            border-collapse: collapse;
+        }
+
+        table th, table td{
+            padding: 10px;
+            border: 1px solid;
+        }
+
+        figure{
+            text-align: center;
+        }
+
+        hr{
+            padding: 0;
+            margin: 0;
+        }
+
+        a:link{
+            color: rgb(233, 239, 244);
+            background-color: none;
+            text-decoration: underline;
+        }
+
+        a:visited{
+            color: rgb(88, 165, 237);
+            background-color: none;
+            text-decoration: none;
+        }
+
+        .pfp{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+
+        .container{
+            margin: 0 auto;
+            width: 800px;
+            padding: 20px;
+            background-color: rgb(255,255,255);
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+            color: rgb(55,55,55);
+        }
+
+        .certificates{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src = "pfp.jpg" alt = "My Photo" class="pfp">
+        <h2>Aaron Lance D. Rodriguez</h2>
+        <p><strong>Contact Number</strong>: 09686260371</p>
+        <p><strong>Gmail</strong>: <a href="mailto:rodriguez.aaronlance@gmail.com">rodriguez.aaronlance@gmail.com</a></p>
+        <p><strong>Facebook</strong>: <a href="https://www.facebook.com/someonenamedaaron">Aaron Lance Rodriguez</a></p>
+    </header>
+
+    <div class ="container">
+        <h3>Short Personal Statement </h3>
+        <hr></hr>
+        <p> I am a <b>Computer Science student</b> who is driven in applying my skills in solving real-life problems. As such
+            I strive to continously improve my <i>problem-solving skills</i>, as well as, increase my abilities in various <i>programming
+            languanges</i> and <i>concepts</i>.
+        </p><br>
+    </div>
+
+    <div class="container">
+        <h3>Educational History</h3>
+        <hr></hr>
+        <ul>
+            <li>Ateneo De Naga University (College)</li>
+            <li>Naga City Science High School (SHS & JHS)</li>
+            <li>Naga Central School I (Elementary)</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h3>General and Technical Skills</h3>
+        <hr></hr>
+        <table>
+            <tr>
+                <th><b>General skills</b></th>
+                <th><b>Technical skills</b></th>
+            </tr>
+
+            <tr>
+                <td>Problem Solving Skills</td>
+                <td>C++</td>
+            </tr>
+
+            <tr>
+                <td>Time Management</td>
+                <td>Java</td>
+            </tr>
+
+            <tr>
+                <td>Adaptability</td>
+                <td>SQL</td>
+            </tr>
+
+            <tr>
+                <td>Critical Thinking</td>
+                <td>PhotoShop</td>
+            </tr>
+
+            <tr>
+                <td>Industrious</td>
+                <td>HTML</td>
+            </tr>
+        </table>
+    </div>
+
+
+    <div class="container">
+        <h3>Character References</h3>
+        <hr></hr>
+        <ol>
+            <li><b>Theresa Aguilar</b></li>
+            <p>- Professor at <i>Ateneo De Naga University</i></p>
+            <li><b>Fau Dumling</b></li>
+            <p>- Backend developer at <i>Jetstar Australia</i></p>
+        </ol>
+    </div>
+
+
+    <div class="container">
+        <h3>Seminars and Certificates</h3>
+        <hr></hr>
+
+        <div class="certificates">
+            <figure>
+                <img src="TICTACTALKS(Day1).png" alt="TicTacTalksDay1">
+                <figcaption><b>Game Prototyping w/ Visual Scripting</b></figcaption>
+            </figure>
+    
+            <figure>
+                <img src="TICTACTALKS(Day2).png" alt="TicTacTalksDay2">
+                <figcaption><b>Building a Personal Brand in Tech</b></figcaption>
+            </figure>
+        </div>
+    </div>
+
+
+</body>
